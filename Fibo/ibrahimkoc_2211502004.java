@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fibonacci {
+public class ibrahimkoc_2211502004 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Eleman değerini gir: ");
@@ -8,7 +8,7 @@ public class fibonacci {
         long time1 = System.nanoTime();
         fibonacciDizi(value - 2);
         long time2 = System.nanoTime();
-        System.out.println((time2 - time1) / 1000);
+        System.out.println("Time: " + (time2 - time1) / 1000);
     }
 
     public static void fibonacciDizi(int value) {
